@@ -20,7 +20,7 @@ for number in list1:
 
 # for each number in the second list
 for number in list2:
-    # if the number is odd
+    # if the number is even
     if number % 2 == 0:
         # add the number to the new list
         new_list.append(number)
