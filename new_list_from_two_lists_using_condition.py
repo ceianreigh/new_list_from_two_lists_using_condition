@@ -26,4 +26,4 @@ for number in list2:
         new_list.append(number)
 
 # print the new list
-("The new list is: ", new_list)
+print("The new list is: ", new_list)
