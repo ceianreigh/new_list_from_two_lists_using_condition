@@ -12,9 +12,13 @@ list2 = [40, 45, 60, 75, 90]
 new_list = []
 
 # for each number in the first list
-#     if the number is odd
-#         add the number to the new list
+for number in list1:
+    #     if the number is odd
+    if number % 2 != 0:
+        #         add the number to the new list
+        new_list.append(number)
 
+print(new_list)
 # for each number in the second list
 #     if the number is odd
 #         add the number to the new list
