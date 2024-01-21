@@ -13,14 +13,17 @@ new_list = []
 
 # for each number in the first list
 for number in list1:
-    #     if the number is odd
+    # if the number is odd
     if number % 2 != 0:
-        #         add the number to the new list
+        # add the number to the new list
         new_list.append(number)
 
-print(new_list)
 # for each number in the second list
-#     if the number is odd
-#         add the number to the new list
+for number in list2:
+    # if the number is odd
+    if number % 2 == 0:
+        # add the number to the new list
+        new_list.append(number)
 
 # print the new list
+("The new list is: ", new_list)
