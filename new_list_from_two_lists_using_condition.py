@@ -5,8 +5,11 @@
 # pseudocode
 
 # write the two given lists
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
 
 # create a new list
+new_list = []
 
 # for each number in the first list
 #     if the number is odd
